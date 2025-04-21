@@ -240,14 +240,14 @@ export default function PaymentCard() {
             {/* ZIP */}
             <div>
               <label className="block text-sm font-semibold text-gray-700 mb-1">
-                ZIP
+                Post Code
               </label>
               <input
                 type="text"
                 name="zip"
                 value={formData.zip}
                 onChange={handleChange}
-                placeholder="12345"
+                placeholder="IG-73445"
                 maxLength={5}
                 className={`w-full border rounded-lg px-4 py-2 focus:outline-none ${
                   errors.zip
