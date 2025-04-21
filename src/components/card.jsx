@@ -247,8 +247,8 @@ export default function PaymentCard() {
                 name="zip"
                 value={formData.zip}
                 onChange={handleChange}
-                placeholder="IG-73445"
-                maxLength={5}
+                placeholder="IG-734nf453"
+                maxLength={10}
                 className={`w-full border rounded-lg px-4 py-2 focus:outline-none ${
                   errors.zip
                     ? "border-red-500 focus:ring-red-400"
